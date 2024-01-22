@@ -22,6 +22,7 @@ const buscaCep = function (e) {
           "Cep não encontrado, verifique o número e tente novamente"
         );
       }
+      console.log(data)
       desabilitarForms(true);
       preencherDados(data);
     })
